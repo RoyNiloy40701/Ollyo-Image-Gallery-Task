@@ -1,0 +1,4 @@
+.image-container > div:first-child {
+	grid-row: span 2;
+	grid-column: span 2;
+}

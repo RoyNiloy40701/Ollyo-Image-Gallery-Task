@@ -1,0 +1,7 @@
+.image-container .darkened {
+	filter: brightness(0.6); /* Darken the image when hovered */
+}
+
+.checkbox {
+	opacity: 1; /* Show the checkbox when hovered */
+}
