@@ -2,7 +2,7 @@ import React, { useState } from "react";
 //import img from '../../assets/images/image-1.webp'
 import "./CustomImg.style.css";
 
-const CustomImg = (props) => {
+const CustomImage = (props) => {
 	const { imageSrc, imageId, passChangeFunction } = props;
 
 	const [hovered, setHovered] = useState(false);
@@ -42,11 +42,11 @@ const CustomImg = (props) => {
 						checked={isChecked}
 						onChange={handleCheckBox}
 						type="checkbox"
-					/>{" "}
+					/>
 				</div>
 			)}
 		</div>
 	);
 };
 
-export default CustomImg;
+export default CustomImage;
