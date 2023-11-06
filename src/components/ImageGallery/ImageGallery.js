@@ -100,7 +100,8 @@ const ImageGallery = () => {
 										<div>
 											<CustomImage
 												imageSrc={item.src}
-												imageId={item.id}
+												iImageGallery
+												ImageId={item.id}
 												passChangeFunction={selectedAllImage}
 											/>
 										</div>
